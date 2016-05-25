@@ -1,0 +1,78 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+img {
+    width: 100%;
+}
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 26px;
+    color: #ca153b;
+}
+h2 {
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 22px;
+}
+p a {
+    color: #ca153b;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* ------------------------------------------
+  Header -TF
+--------------------------------------------- */
+nav {
+}
+.navbar-header {
+    padding: 10px 0 25px;
+}
+/* Navigation */
+
+li a {
+    text-align: center;
+    transition: 0.3s;
+    font-size: 20px;
+    margin: 10px;
+}
+li:hover {
+    background: grey;
+}
+/* ------------------------------------------
+  Slider -TF
+--------------------------------------------- */
+#slider {
+    margin-top: -16px;
+}
+#slider h1 {
+    text-shadow: 2px 2px black;
+    color: white;
+}
+/* ------------------------------------------
+  Content -TF
+--------------------------------------------- */
+.articles {
+    padding: 0px 20px;
+}
+.articles h1 {
+    color: #ca153b;
+    margin: 20px 0px -10px 0px;
+}
+.articles p {
+    margin-top: -8px;
+}
+/* ------------------------------------------
+  blog -TF
+--------------------------------------------- */
+.blog  {
+    margin: 0px 20px;
+/* ------------------------------------------
+  Media Queries -TF
+--------------------------------------------- */
+@media screen and (max-width:768px) {
+    .navbar-brand {
+        transform: translatex(-50%);
+        left: 50%;
+        position: absolute;
+    }
+}
